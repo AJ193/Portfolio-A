@@ -38,7 +38,7 @@ nav {
   align-items: center;
   text-align: center;
   color: white;
-  font-family: 'Roboto';
+  font-family: 'Roboto', serif;
 }
 
 .nav-center {
@@ -117,5 +117,5 @@ nav {
   justify-content: space-between;
   align-items: center;
   list-style: none;
-  gap: 0rem;
+  gap: 0;
 }
