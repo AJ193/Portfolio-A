@@ -28,9 +28,17 @@ nav {
 }
 
 #JohnDoe h3 {
-  font-size: 20px;
+  width: 73px;
+  height: 24px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
   color: white;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Roboto';
 }
 
 .nav-center {
@@ -57,7 +65,7 @@ nav {
 }
 
 .mainbody {
-  height: 100vh;
+  height: 675px;
   width: 100%;
   padding: 160px 24px 0;
   display: flex;
@@ -68,7 +76,7 @@ nav {
   background-repeat: no-repeat;
   background-size: 11rem;
   background-position: 100%;
-  background-position-y: 22rem;
+  background-position-y: 18rem;
 }
 
 .title {
@@ -80,7 +88,7 @@ nav {
 
 .title h1 {
   font-family: 'Crete Round', serif;
-  font-size: 56px;
+  font-size: 43px;
   line-height: 64px;
   letter-spacing: 0.37px;
   width: 20rem;
@@ -96,19 +104,18 @@ nav {
 
 .discription p {
   font-weight: 400;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 24px;
   color: #fff;
-  width: 22rem;
+  width: 21rem;
   font-family: 'Poppins', sans-serif;
 }
 
 .social-links {
-  padding: 15px;
   display: flex;
   width: 10rem;
   justify-content: space-between;
   align-items: center;
   list-style: none;
-  gap: 1rem;
+  gap: 0rem;
 }
