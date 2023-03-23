@@ -49,6 +49,7 @@ A mobile view portfolio showing only the header and headline section. The headli
 - **work section**
 - **Contact Form**
 - **Contact Page**
+
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
@@ -73,9 +74,7 @@ Clone this repository to your desired folder:
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
-
 - **Media queries for Desktop version**
-
 
 ## 🤝 Contributing <a name="contributing"></a>
 
