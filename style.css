@@ -673,7 +673,7 @@ nav {
   flex-direction: column;
   align-items: flex-start;
   height: 1901px;
-  width: 375px;
+  width: 410px;
   left: 0 px;
   top: 4300px;
   border-radius: 0.1px;
@@ -682,9 +682,9 @@ nav {
 }
 
 .about {
-  width: 375px;
-  height: 563px;
-  left: 0.1px;
+  width: 409px;
+  height: 555px;
+  left: -5px;
   top: 35px;
   border-radius: 0 px;
   display: flex;
@@ -695,10 +695,11 @@ nav {
   position: absolute;
   background-image: url(images/illustration-about-me-mobile.png);
   background-repeat: no-repeat;
-  background-position: bottom -10px right -10px;
+  background-position: bottom -10px right -1px;
 }
 
 .about-me {
+  left: 18px;
   top: 75px;
   border-radius: nullpx;
   font-family: 'Crete Round', serif;
@@ -773,8 +774,8 @@ nav {
 }
 
 .divider {
-  width: 327px;
-  left: 24px;
+  width: 350px;
+  left: 22px;
   top: 615px;
   border-radius: 0 px;
   position: absolute;
@@ -794,7 +795,7 @@ nav {
   gap: 24px;
   position: absolute;
   order: 2;
-  left: 23px;
+  left: 75px;
 }
 
 .language {
@@ -831,6 +832,7 @@ nav {
   border-radius: 0 px;
   height: 18px;
   background: #ff6b00;
+  border: none;
   transform: rotate(-45deg);
   flex: none;
   order: 0;
@@ -956,6 +958,7 @@ nav {
   top: 180px;
   border-radius: 0 px;
   background: #ff6b00;
+  border: none;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -988,8 +991,8 @@ nav {
 }
 
 .skills-list-contain {
-  left: 0;
-  top: 740px;
+  left: -1px;
+  top: 600px;
   border-radius: 0;
   padding: 8px 12px 8px 12px;
   display: flex;
@@ -1010,6 +1013,7 @@ nav {
   left: 55px;
   top: 110px;
   border-radius: 150px;
+  border: none;
   background: #ff6b00;
   flex: none;
   order: 0;
@@ -1025,6 +1029,6 @@ nav {
 }
 
 .ulskill {
-  top: 900px;
+  top: 760px;
   position: absolute;
 }
