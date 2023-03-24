@@ -36,6 +36,7 @@ A mobile view portfolio showing only the header and headline section. The headli
 - CSS3
 - Flexbox
 - CSS Grid
+- Formspree
 
 <!-- Features -->
 
@@ -43,6 +44,12 @@ A mobile view portfolio showing only the header and headline section. The headli
 
 - **Navigation Section**
 - **Headline Section**
+- **About Page**
+- **Portfolio Page**
+- **work section**
+- **Contact Form**
+- **Contact Page**
+
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
@@ -67,12 +74,7 @@ Clone this repository to your desired folder:
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
-
-- [ ] **Contact Form**
-- [ ] **About Page**
-- [ ] **Portfolio Page**
-- [ ] **Contact Page**
-- [ ] **work section**
+- **Media queries for Desktop version**
 
 ## 🤝 Contributing <a name="contributing"></a>
 
