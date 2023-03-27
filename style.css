@@ -138,13 +138,13 @@ nav {
 
 .divider-2 {
   position: relative;
-height: 1px;
-left: 0px;
-right: 0px;
-top: 5180px;
-width: 410px;
-/* Neutrals/N40 */
-background: #dfe1e6;
+  height: 1px;
+  left: 0px;
+  right: 0px;
+  top: 5180px;
+  width: 410px;
+  /* Neutrals/N40 */
+  background: #dfe1e6;
 }
 
 .my-recent-works {
