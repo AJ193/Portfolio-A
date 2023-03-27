@@ -498,7 +498,7 @@ nav {
 .cardworks {
   display: flex;
   flex-direction: column-reverse;
-  left: 24px;
+  left: 12px;
   flex-grow: 0;
   position: absolute;
   border-radius: 0;
@@ -1078,7 +1078,7 @@ nav {
   position: relative;
   width: 375px;
   height: 844px;
-  top: 3280px;
+  top: 3305px;
 }
 
 .text-2 {
@@ -1111,7 +1111,8 @@ nav {
   order: 0;
   flex-grow: 0;
   position: relative;
-  top: 1960px;
+  top: 2010px;
+  left: -5px;
 }
 
 .add-info {
@@ -1232,4 +1233,10 @@ nav {
   width: 350px;
   position: relative;
   left: -3px;
+}
+
+.form-button:hover {
+  color: #f55800;
+  border: none;
+  background-color: #fff5e1;
 }
