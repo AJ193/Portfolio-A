@@ -487,10 +487,6 @@ body {
   color: #505f79;
 }
 
-.header-overly {
-  display: none;
-}
-
 .portfolio-social {
   order: -1;
   display: flex;
@@ -766,6 +762,13 @@ body {
     padding: 5rem 2rem 2rem 2rem;
     background-color: #1c1a19;
     position: absolute;
+    display: grid;
+    grid-template-columns: 40% 40%;
+    padding-right: 0;
+    gap: 3rem;
+    justify-content: space-between;
+    padding-left: 10%;
+    overflow-x: hidden;
   }
 
   .navbar-link-item {
@@ -849,11 +852,9 @@ body {
     display: flex;
     position: relative;
     top: 50px;
-    left: 0vh;
   }
 
   .portfolio-social {
-    order: -1;
     display: flex;
     flex-direction: column;
     list-style: none;
@@ -902,8 +903,6 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
-    /* position: relative;
-    top: 100px; */
   }
 
   .projects-primary {
@@ -939,16 +938,6 @@ body {
   .projects-primary:hover .projects-heading1,
   .projects-primary:hover .projects-disc1 {
     display: none;
-  }
-
-  .about {
-    display: grid;
-    grid-template-columns: 40% 40%;
-    padding-right: 0;
-    gap: 3rem;
-    justify-content: space-between;
-    padding-left: 10%;
-    overflow-x: hidden;
   }
 
   .about-heading {
@@ -988,8 +977,6 @@ body {
 
   .qualification {
     display: flex;
-    padding-left: 10%;
-    padding-right: 20%;
     justify-content: space-between;
     padding: 4rem 2rem;
     background-color: #1c1a19;
