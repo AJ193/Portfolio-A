@@ -123,6 +123,27 @@ nav {
   gap: 0;
 }
 
+.links {
+  padding: 15px;
+  display: flex;
+  width: 10rem;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  gap: 0 rem;
+  position: relative;
+  top: 5180px;
+  left: 90px;
+}
+
+.divider-2 {
+  position: relative;
+  height: 1px;
+  top: 5180px;
+  width: 410px;
+  background: #dfe1e6;
+}
+
 .my-recent-works {
   display: grid;
   grid-template-columns: auto;
@@ -133,7 +154,7 @@ nav {
   width: 375px;
   height: 3455px;
   left: 20px;
-  top: 682px;
+  top: 900px;
 }
 
 .recent-works {
@@ -143,7 +164,7 @@ nav {
   padding: 0;
   gap: 24px;
   grid-column: 1/ span 2;
-  left: 24px;
+  left: 22px;
   top: 120px;
   border-radius: 0;
   position: absolute;
@@ -477,7 +498,7 @@ nav {
 .cardworks {
   display: flex;
   flex-direction: column-reverse;
-  left: 24px;
+  left: 12px;
   flex-grow: 0;
   position: absolute;
   border-radius: 0;
@@ -687,10 +708,10 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  height: 1901px;
+  height: 1700px;
   width: 410px;
   left: 0 px;
-  top: 4300px;
+  top: 4490px;
   border-radius: 0.1px;
   background: #1c1a19;
   position: absolute;
@@ -1046,4 +1067,176 @@ nav {
 .ulskill {
   top: 760px;
   position: absolute;
+}
+
+.add-contact-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 120px 24px;
+  gap: 58px;
+  position: relative;
+  width: 375px;
+  height: 844px;
+  top: 3305px;
+}
+
+.text-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 px;
+  gap: 24px;
+  width: 327px;
+  height: 216px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  left: 16px;
+  position: relative;
+  border-radius: 0 px;
+}
+
+.contact-text {
+  width: 327px;
+  height: 216px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: #172b4d;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  position: relative;
+  top: 2010px;
+  left: -5px;
+}
+
+.add-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 px;
+  gap: 24px;
+  width: 327px;
+  height: 330px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  left: 24px;
+  border-radius: 1px;
+}
+
+.full-name {
+  width: 350px;
+  height: 48px;
+  left: 18px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  top: 1990px;
+  position: relative;
+}
+
+.container-1 {
+  top: 10px;
+  position: relative;
+  left: -9px;
+}
+
+.email-address {
+  width: 350px;
+  height: 48px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  position: relative;
+  top: 1978px;
+  left: 18px;
+}
+
+.container-2 {
+  top: 10px;
+  position: relative;
+  left: -9px;
+}
+
+.message-text {
+  width: 327px;
+  height: 114px;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  position: relative;
+  top: 1965px;
+}
+
+.form-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+  width: 131px;
+  height: 48px;
+  background: #ff6b00;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  border: none;
+  position: relative;
+  top: 1970px;
+  left: 15px;
+}
+
+.form-button:active {
+  background-color: antiquewhite;
+}
+
+.form-button-text {
+  width: 107px;
+  height: 24px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #fff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.border-none-1 {
+  border: none;
+  text-indent: 5px;
+  width: 300px;
+}
+
+.border-none-2 {
+  border: none;
+  text-indent: 5px;
+  width: 300px;
+}
+
+.border-none-3 {
+  border: none;
+  background: #fbf8f7;
+  text-indent: 12px;
+  width: 350px;
+  position: relative;
+  left: -3px;
+}
+
+.form-button:hover {
+  color: #f55800;
+  border: none;
+  background-color: #fff5e1;
 }
