@@ -6,7 +6,8 @@ html {
 
 body {
   overflow-x: hidden;
-  width: 104%;
+  contain: content;
+  width: 100%;
 }
 
 *,
@@ -888,7 +889,6 @@ body {
     display: flex;
     position: relative;
     top: 50px;
-    left: -50px;
     background-repeat: no-repeat;
   }
 
