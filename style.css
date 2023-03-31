@@ -168,6 +168,11 @@ body {
   object-fit: cover;
 }
 
+.project-item-img img:hover {
+  transform: scale(0.9);
+  transition-duration: 500ms;
+}
+
 .project-list {
   display: grid;
   grid-template-columns: 1fr;
