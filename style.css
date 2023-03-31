@@ -36,6 +36,8 @@ body {
   font-weight: 700;
   line-height: 24px;
   padding: 12px;
+  transform: rotate(360deg);
+  transition-duration: 2s;
 }
 
 .header {
