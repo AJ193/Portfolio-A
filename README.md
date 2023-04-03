@@ -13,6 +13,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+    -  [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
 - [👥 Authors](#authors)
@@ -51,7 +52,8 @@ A mobile view portfolio showing only the header and headline section. The headli
 - **Contact Page**
 - **Media queries for Desktop version**
 
-<!-- GETTING STARTED -->
+## 🚀 Live Demo <a name="live-demo"></a>
+- [Live Demo Link](https://aj193.github.io/Portfolio-A/)
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -75,7 +77,7 @@ Clone this repository to your desired folder:
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
-- **Live Demo**
+- Na
 
 ## 🤝 Contributing <a name="contributing"></a>
 
