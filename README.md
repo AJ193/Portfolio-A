@@ -14,7 +14,7 @@
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
     -  [🚀 Live Demo](#live-demo)
-    - loom video [https://www.loom.com/share/3dd743c0c1f14e619db9b54748508d54]
+    - [loom video] (#https://www.loom.com/share/3dd743c0c1f14e619db9b54748508d54)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
 - [👥 Authors](#authors)
