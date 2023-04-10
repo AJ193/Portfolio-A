@@ -43,7 +43,6 @@ body {
 .header {
   background-color: #1c1a19;
   padding: 12rem 3rem;
-  position: relative;
 }
 
 .header-text {
@@ -759,6 +758,22 @@ body {
   flex-grow: 0;
 }
 
+.nav-open {
+  border: 1px solid #fff;
+  position: absolute;
+  top: 0;
+  width: 100vh;
+  height: 100vh;
+  background-color: red;
+  left: 0;
+  z-index: 4;
+  overflow: hidden;
+}
+
+.toggle {
+  display: none;
+}
+
 .mask-group {
   height: 386px;
   width: 327px;
@@ -790,6 +805,10 @@ body {
     display: flex;
     list-style: none;
     gap: 1rem;
+  }
+
+  .nav-open {
+    display: none;
   }
 
   .about {
