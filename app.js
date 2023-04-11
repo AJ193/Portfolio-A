@@ -1,15 +1,24 @@
-const nav = document.querySelector('.nav-open');
-const burgerMenu = document.querySelector('.navbar-list-item');
-const handleNavClick = () => {
-  nav.classList.toggle('toggle');
-  // burgerMenu.classList.toggle('rotate');
-  // console.log("hi");
-};
-// console.log(nav);
-burgerMenu.addEventListener('click', handleNavClick);
-// const handleLinkClick = () => {
-//   nav.classList.toggle('toggle');
-//   burgerMenu.classList.toggle('rotate');
-// links.forEach((lin) => {
-//   lin.addEventListener('click', handleLinkClick);
-// });
+const openHam = document.getElementById('openHam');
+const closeHam = document.getElementById('closeHam');
+const menuLinks = document.querySelectorAll('.link');
+const navOpen=document.querySelector('.nav-open');
+
+openHam.addEventListener('click', () => {
+  navOpen.classList.toggle('show');
+
+  openHam.classList.add('hide');
+  closeHam.classList.remove('hide');
+});
+
+closeHam.addEventListener('click', () => {
+  navOpen.classList.toggle('show');
+
+  openHam.classList.remove('hide');
+  closeHam.classList.add('hide');
+});
+
+menuLinks.forEach((link) => link.addEventListener('click', () => {
+  navOpen.classList.remove('show');
+  openHam.classList.remove('hide');
+  closeHam.classList.add('hide');
+}));
