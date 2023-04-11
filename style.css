@@ -768,20 +768,15 @@ body {
   z-index: 4;
   display: none;
   flex-direction: column;
-  /* overflow: hidden; */
   padding: 40px 20px;
   gap: 20px;
 }
 
-.nav-open a{
+.nav-open a {
   text-decoration: none;
   color: #fff;
   border-bottom: 2px solid #dbd8d7;
 }
-/* 
-.toggle {
-  display: none;
-} */
 
 .mask-group {
   height: 386px;
@@ -797,21 +792,22 @@ body {
   display: none;
 }
 
-.hide{
+.hide {
   display: none;
 }
 
-.show{
+.show {
   display: flex;
 }
 
-#closeHam{
+#closeHam {
   top: 20px;
-  right:40px;
+  right: 40px;
   position: absolute;
   z-index: 80;
   cursor: pointer;
 }
+
 @media only screen and (min-width: 768px) {
   html {
     font-size: 80%;

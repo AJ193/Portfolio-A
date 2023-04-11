@@ -1,7 +1,7 @@
 const openHam = document.getElementById('openHam');
 const closeHam = document.getElementById('closeHam');
 const menuLinks = document.querySelectorAll('.link');
-const navOpen=document.querySelector('.nav-open');
+const navOpen = document.querySelector('.nav-open');
 
 openHam.addEventListener('click', () => {
   navOpen.classList.toggle('show');
