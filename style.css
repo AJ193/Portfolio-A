@@ -763,7 +763,7 @@ body {
   top: 0;
   width: 100vw;
   height: 100%;
-  background-color: #3c3a39;
+  background-color: #3C3A39;
   left: 0;
   z-index: 4;
   display: none;
@@ -774,8 +774,12 @@ body {
 
 .nav-open a {
   text-decoration: none;
-  color: #fff;
-  border-bottom: 2px solid #dbd8d7;
+  color: #FFF5E1;
+  border-bottom: 1px solid #FFF5E1;
+  font-family: 'Inter', serif;
+  padding-bottom: 10px;
+  font-size: 26px;
+  width: 90%;
 }
 
 .mask-group {
