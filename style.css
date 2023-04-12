@@ -2,6 +2,7 @@
 html {
   box-sizing: border-box;
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -43,7 +44,6 @@ body {
 .header {
   background-color: #1c1a19;
   padding: 12rem 3rem;
-  position: relative;
 }
 
 .header-text {
@@ -759,6 +759,30 @@ body {
   flex-grow: 0;
 }
 
+.nav-open {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 100%;
+  background-color: #3c3a39;
+  left: 0;
+  z-index: 4;
+  display: none;
+  flex-direction: column;
+  padding: 40px 20px;
+  gap: 20px;
+}
+
+.nav-open a {
+  text-decoration: none;
+  color: #fff5e1;
+  border-bottom: 1px solid #fff5e1;
+  font-family: 'Inter', serif;
+  padding-bottom: 10px;
+  font-size: 26px;
+  width: 90%;
+}
+
 .mask-group {
   height: 386px;
   width: 327px;
@@ -771,6 +795,22 @@ body {
 
 .all-project {
   display: none;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: flex;
+}
+
+#closeHam {
+  top: 20px;
+  right: 40px;
+  position: absolute;
+  z-index: 80;
+  cursor: pointer;
 }
 
 @media only screen and (min-width: 768px) {
@@ -790,6 +830,10 @@ body {
     display: flex;
     list-style: none;
     gap: 1rem;
+  }
+
+  .nav-open {
+    display: none;
   }
 
   .about {

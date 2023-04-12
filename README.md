@@ -51,6 +51,7 @@ A mobile view portfolio showing only the header and headline section. The headli
 - **Contact Form**
 - **Contact Page**
 - **Media queries for Desktop version**
+- **Mobile Menu**
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 - [Live Demo Link](https://aj193.github.io/Portfolio-A/)
@@ -77,7 +78,9 @@ Clone this repository to your desired folder:
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
-- Na
+- Pop Up Window
+- Validate Contact Form
+- Preserve data in the browser
 
 ## 🤝 Contributing <a name="contributing"></a>
 
