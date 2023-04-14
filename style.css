@@ -360,6 +360,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
+  width: 82%;
 }
 
 .popup-close-btn-holder {
