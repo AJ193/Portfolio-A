@@ -233,14 +233,16 @@ function savaData() {
   localStorage.setItem('data', JSON.stringify(userData));
 }
 
-fullname.addEventListener('focusout', savaData);
-email.addEventListener('focusout', savaData);
-message.addEventListener('focusout', savaData);
+fullname.addEventListener('keypress', savaData);
+email.addEventListener('keypress', savaData);
+message.addEventListener('keypress', savaData);
 
 const data = JSON.parse(localStorage.getItem('data'));
 
-if (data) {
-  fullname.value = data.username;
-  email.value = data.email;
-  message.value = data.message;
-}
+window.onload = () => {
+  if (data) {
+    fullname.value = data.username;
+    email.value = data.email;
+    message.value = data.message;
+  }
+};
