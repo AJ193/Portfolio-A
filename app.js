@@ -1,4 +1,7 @@
 const showHideMenu = document.querySelector('.menu-slider');
+const fullname = document.getElementById('fullname');
+const email = document.getElementById('email');
+const message = document.getElementById('message');
 function showHide() {
   showHideMenu.classList.toggle('active');
 }
@@ -221,3 +224,25 @@ submit.addEventListener('submit', (e) => {
   return true;
 });
 
+function savaData() {
+  const userData = {
+    username: fullname.value,
+    email: email.value,
+    message: message.value,
+  };
+  localStorage.setItem('data', JSON.stringify(userData));
+}
+
+fullname.addEventListener('keypress', savaData);
+email.addEventListener('keypress', savaData);
+message.addEventListener('keypress', savaData);
+
+const data = JSON.parse(localStorage.getItem('data'));
+
+window.onload = () => {
+  if (data) {
+    fullname.value = data.username;
+    email.value = data.email;
+    message.value = data.message;
+  }
+};
