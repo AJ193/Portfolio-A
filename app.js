@@ -227,14 +227,14 @@ function savaData() {
     email: email.value,
     message: message.value,
   };
-  localStorage.setItem('userData', JSON.stringify(userData));
+  localStorage.setItem('user', JSON.stringify(userData));
 }
 
 fullname.addEventListener('focusout', savaData);
 email.addEventListener('focusout', savaData);
 message.addEventListener('focusout', savaData);
 
-const data = JSON.parse(localStorage.getItem('userData'));
+const data = JSON.parse(localStorage.getItem('user'));
 
 if (data) {
   fullname.value = data.username;
@@ -245,6 +245,6 @@ if (data) {
 resetBtn.addEventListener('click', (e) => {
   e.preventDefault();
   if (data) {
-    localStorage.removeItem('userData');
+    localStorage.removeItem('useral');
   }
 });
