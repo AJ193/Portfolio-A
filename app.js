@@ -220,3 +220,24 @@ submit.addEventListener('submit', (e) => {
   }
   return true;
 });
+
+function savaData() {
+  const userData = {
+    username: fullname.value,
+    email: email.value,
+    message: message.value,
+  };
+  localStorage.setItem('data', JSON.stringify(userData));
+}
+
+fullname.addEventListener('focusout', savaData);
+email.addEventListener('focusout', savaData);
+message.addEventListener('focusout', savaData);
+
+const data = JSON.parse(localStorage.getItem('data'));
+
+if (data) {
+  fullname.value = data.username;
+  email.value = data.email;
+  message.value = data.message;
+}
