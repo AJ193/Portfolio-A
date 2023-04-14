@@ -242,9 +242,3 @@ if (data) {
   message.value = data.message;
 }
 
-resetBtn.addEventListener('click', (e) => {
-  e.preventDefault();
-  if (data) {
-    localStorage.removeItem('useral');
-  }
-});
