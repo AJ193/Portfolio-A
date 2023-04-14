@@ -1,4 +1,7 @@
 const showHideMenu = document.querySelector('.menu-slider');
+const fullname = document.getElementById('fullname');
+const email = document.getElementById('email');
+const message = document.getElementById('message');
 function showHide() {
   showHideMenu.classList.toggle('active');
 }
