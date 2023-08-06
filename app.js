@@ -18,69 +18,56 @@ const resultMsg = document.querySelector('.msg');
 
 const projects = [
   {
-    name: 'Multi Post Stories',
-    img: 'images/ex.png',
-    description:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-    description2:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industrys standard.',
-    tags: ['XML', 'CSS', 'Ruby'],
-    demoLink: '',
+    name: 'Countries',
+    img: 'images/Countries React.PNG',
+    description: 'This is a capstone project that uses React and Redux technologies. The website provides detailed information about countries by utilizing an API.',
+    tags: ['HTML', 'CSS', 'Javascript'],
+    demoLink: 'https://maps-react.onrender.com/',
     codeLink: '',
   },
   {
-    name: 'Multi Post Stories',
-    img: 'images/ex.png',
+    name: 'Book-Store',
+    img: 'images/Book-Store-React Thumbnail.PNG',
     description:
       'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-    description2:
-    'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industrys standard.',
-    tags: ['HTML', 'Bootstrap', 'Ruby'],
-    demoLink: '',
+    tags: ['HTML', 'Bootstrap', 'React'],
+    demoLink: 'https://book-store-react-o7tw.onrender.com/',
     codeLink: '',
   },
   {
-    name: 'Multi Post Stories',
-    img: 'images/ex.png',
+    name: 'Math-Magicians',
+    img: 'images/Math-magicians React app.PNG',
     description:
       'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-    description2:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industrys standard.',
-    tags: ['XML', 'CSS', 'Ruby'],
-    demoLink: '',
+    tags: ['HTML', 'CSS', 'React'],
+    demoLink: 'https://math-magicians-website-jjxd.onrender.com/',
     codeLink: '',
   },
   {
-    name: 'Keeping track of hundreds  of components website',
-    img: 'images/ex.png',
+    name: 'Movie-app',
+    img: 'images/Movie app thumbnail.PNG',
     description:
       'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-    description2:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industrys standard.',
-    tags: ['XML', 'CSS', 'Ruby'],
-    demoLink: '',
+    tags: ['HTML', 'CSS', 'Ruby'],
+    demoLink: 'https://aj193.github.io/Javascript-Capstone/dist/',
     codeLink: '',
   },
   {
-    name: 'Multi Post Stories',
-    img: 'images/ex.png',
+    name: 'React-Todo',
+    img: 'images/React-todo thumbnail.PNG',
     description:
       'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-    description2:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industrys standard.',
-    tags: ['XML', 'CSS', 'Ruby'],
-    demoLink: '',
+    tags: ['HTML', 'CSS', 'React'],
+    demoLink: 'https://react-todo-app-website.onrender.com/',
     codeLink: '',
   },
   {
-    name: 'Multi Post Stories',
-    img: 'images/ex.png',
+    name: 'Space-Travelers',
+    img: 'images/Space-Travelers React.PNG',
     description:
       'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-    description2:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industrys standard.',
-    tags: ['XML', 'CSS', 'Ruby'],
-    demoLink: '',
+    tags: ['HTML', 'CSS', 'React'],
+    demoLink: 'https://space-travelers-1204.onrender.com/',
     codeLink: '',
   },
 ];
